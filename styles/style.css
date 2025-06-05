@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto slab', serif;
+    
+}
+
+body {
+    background-image: url('../assets/images/bgHeader.png');
+    height: 150px;
+    font-weight: 300px;
+    
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url('../assets/images/bgHeader.png');
+}
+
+footer {
+    background-image: url('../assets/images/bgDown.png');
+    background-size: cover;
+    padding: 50px;
+}
