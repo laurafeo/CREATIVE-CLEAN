@@ -8,19 +8,66 @@
 }
 
 body {
-    background-image: url('../assets/images/bgHeader.png');
-    height: 150px;
+    height: 0;
     font-weight: 300px;
-    
+
 }
 header {
     text-align: center;
-    padding: 20px;
-    background-image: url('../assets/images/bgHeader.png');
+    background: url('../assets/images/bgHeader.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ h1,
+ h2{
+    color: #eb6003;
+    font-size: 50px;
+ }
+  
+ button{
+    background-color: #eb6003;
+    color: #fff;
+    border-radius: 30px;
+    height:40px;
+    width: 100px;
+    
+ }
+
+.informacion {
+    display: flex;
+}
+.informacion2 {
+    display: flex;
+}
+.informacion3 {
+    display: flex;
+    background-image: url('../assets/images/bgDown.png');
+    background-color: white;
+    font-weight: 100px;
+}
+.contenido {
+    padding: 20vh ;
+}
+.contenido p {
+    line-height: 30px;
+}
+.contenido h2{
+    line-height: 65px;
+}
+.imagenInformacion {
+    padding: 10vh;
 }
 
 footer {
-    background-image: url('../assets/images/bgDown.png');
-    background-size: cover;
-    padding: 50px;
+    padding: 80px;
+    background-color: #eb6003;
+    color: #fff;
+    margin: 100px;
+    justify-content: center;
 }
