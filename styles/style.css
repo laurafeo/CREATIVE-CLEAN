@@ -1,73 +1,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 *{
+    font-family: "roboto slab", serif;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto slab', serif;
-    
+    box-sizing: border-box;
+    border: none;
 }
 
-body {
-    height: 0;
-    font-weight: 300px;
-
-}
 header {
-    text-align: center;
-    background: url('../assets/images/bgHeader.png');
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 50rem;
+    background-image: url(/assets/images/bgHeader.png);
     background-size: cover;
     background-position: center;
-    height: 500px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fe9707;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+header p {
+    color: #000;
+    font-size: 32px;
+}
+
+button {
+    width: 10rem;
+    height: 4rem;
+    background: linear-gradient(to right, #ffa75b, #f2672c);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    height: 30rem;
+}
+
+div h2 {
+    color: #fe9707;
+    font-size: 2.8rem;
+    font-weight: normal;
+}
+
+div p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.article1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 5rem;
+}
+
+.article1 img {
+    width: 30rem;
+    height: 38rem;
+}
+
+.article2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5rem 5rem;
+    flex-direction: row-reverse;
+}
+
+.article2 img {
+    width: 30rem;
+    height: 38rem;
+}
+
+.article3 {
+    background-image: url(../assets/images/bgDown.png);
+    height: 50rem;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.div {
+    margin-left: 20rem;
+}
+
+.button {
+    width: 15rem;
+    height: 4rem;
+    background: linear-gradient(to right, #ffa75b, #f2672c);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
+    background: linear-gradient(to right, #ffa75b, #f2672c);
+    height: 300px;
 }
 
- h1,
- h2{
-    color: #eb6003;
-    font-size: 50px;
- }
-  
- button{
-    background-color: #eb6003;
-    color: #fff;
-    border-radius: 30px;
-    height:40px;
-    width: 100px;
-    
- }
-
-.informacion {
+.menu a{
     display: flex;
-}
-.informacion2 {
-    display: flex;
-}
-.informacion3 {
-    display: flex;
-    background-image: url('../assets/images/bgDown.png');
-    background-color: white;
-    font-weight: 100px;
-}
-.contenido {
-    padding: 20vh ;
-}
-.contenido p {
-    line-height: 30px;
-}
-.contenido h2{
-    line-height: 65px;
-}
-.imagenInformacion {
-    padding: 10vh;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px 0;
 }
 
-footer {
-    padding: 80px;
-    background-color: #eb6003;
-    color: #fff;
-    margin: 100px;
-    justify-content: center;
+.menu h4{
+    color: white;
+    padding: 40px 0;
+    font-weight: normal;
+}
+
+footer{
+    text-align: center;
+    padding: 25px;
+    background: linear-gradient(to right, #ffa75b, #f2672c);
+    box-shadow: 0 5px 25px #f2672c;
+    color: white;
+}
+
+span{
+    font-size: 13px;
 }
